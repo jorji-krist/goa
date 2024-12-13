@@ -1,0 +1,25 @@
+# 1)
+name = input("whates ur name ? ")
+surname = input("whats ur surname ? ")
+age = input("whats ur age ? ")
+print(name + " " + surname + " " + "aris" + " " + str(age) + " wlis")
+
+# 2) 
+first = int(input("first number: "))
+second = int(input("second number: "))
+
+print(first * second)
+print(first / second)
+print(first - second)
+print(first + second)
+
+# 3)
+user = input("enter your name: ")
+print(user)
+
+# 5)
+academy = input("რომელია შენი სასწავლო აკადემია ?: ")
+school = input("რომელია შენი სასწავლებელი სკოლა ?: ")
+name = input("რა გქვია ?: ")
+last_name = input("რა გვარის ხარ ?: ")
+print(academy + ", " + school + ", " + name + ", " + last_name + ".")

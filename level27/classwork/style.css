@@ -1,0 +1,21 @@
+main {
+    background-color: aqua;
+    text-align: center;
+    font-size: x-large;
+    border: 5px solid saddlebrown;
+    max-width: 60%;
+    padding: 5%;
+    
+}
+#h1 {
+    text-align: center;
+    color: rgb(red, green, blue);
+    background-color: burlywood;
+    border: 3px solid seagreen;
+    max-width: 30%;
+}
+#p1, #p2, #p3 {
+    color: #da1b1b;
+    background-color: hsl(100, 100%, 10%);
+    font-size: larger;
+}

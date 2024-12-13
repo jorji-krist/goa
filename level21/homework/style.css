@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+.main {
+     font-style: italic;
+}
+.main-h1 {
+    color: crimson; font-style:italic; font-size: 50px;
+}
+.a {
+    color: burlywood;
+}
+.h-1 {
+    color: coral;
+}
+.p-1 {
+    color: chocolate;
+}
+.h-2 {
+    color: cyan;
+}
+.p-2 {
+    color: darkviolet;
+}
+.h-3 {
+    color: brown;
+}
+.p-3 {
+    color: cadetblue;
+}

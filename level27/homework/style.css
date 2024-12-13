@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(182, 144, 95);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+}
+a {
+    color: rgb(107, 89, 89);
+    font-size: large;
+}
+nav {
+    border: 5px solid rgb(19, 61, 38);
+    max-width: 10%;
+    padding: 0.5%;
+    padding-top: 0.1%;
+    background-color:rgb(20, 35, 36);
+    margin: 2%;
+    margin-top: 0%;
+}
+.nav-header {
+    margin-top: auto;
+    font-size: 25px;
+
+}
+main {
+    text-align: center;
+    border: 15px solid darkslategrey;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20%;
+    padding-top: 4%;
+    font-size: x-large;
+    background-color: rgb(76, 107, 76);
+}
+.h1 {
+    font-size: 35px;
+    text-align: center;
+    border: 3px solid black;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    color: rgb(65, 2, 65);
+    background-color: black;
+}
