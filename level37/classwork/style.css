@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PT+Guides&family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: linear-gradient(to right, rgb(116, 59, 33), rgb(223, 198, 152));
+    text-align: center;
+}
+.card {
+    width: 50%;
+    margin: auto;
+    margin-top: 4%;
+    font-family: "Playwrite PT Guides", serif;
+    border: 10px solid;
+    border-image-source: linear-gradient(to left, rgb(116, 59, 33), rgb(223, 198, 152));
+    border-image-slice: 1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

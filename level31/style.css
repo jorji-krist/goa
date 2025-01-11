@@ -1,0 +1,12 @@
+.div {
+    width: 500px;
+    height: auto;
+    text-align: center;
+    border: 10px solid saddlebrown;
+    color: brown;
+    max-width: 40%;
+    margin: auto;
+    margin-top: 10%;
+    padding: 2% 1% 2% 1%;
+
+}

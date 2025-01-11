@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+}
+ .card {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 1%;
+    font-size: 25px;
+
+}
+.custom-button {
+    border: 2px solid #4CAF50; 
+    margin: 20px; 
+    margin-top: 3%;
+    padding: 10px 20px; 
+    font-size: 16px; 
+    background-color: #f4f4f4; 
+    cursor: pointer; 
+    font-weight: 500;
+}
+
+.custom-button:hover {
+    background-color: #4CAF50;
+    color: white; 
+}
+
+.card {
+    border: 15px solid;
+    max-width: 50%;
+    margin: auto;
+    font-size: 25px;
+    border-top: yellowgreen 15px solid;
+    border-left: orangered 15px solid;
+    border-right: purple 15px solid;
+    border-bottom: green 15px solid;
+    border-image-slice: 1;
+    box-sizing: 10px;
+    border-style: dashed;
+}
+.div-1 {
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    width: 50%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 1%;
+    font-size: 25px;
+}
+.div-2 {
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 10%;
+    width: 70%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 1%;
+    font-size: 25px;
+}
+
+

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playwrite+PT+Guides&family=Poetsen+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    text-align: center;
+    background-color: rgb(40, 141, 40);
+    background-image: url(./assets/image.png);
+    background-position: top;
+    background-size: 100%;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+.card {
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    width: 50%;
+    border: 15px solid;
+    border-image-source: linear-gradient(to left, rgb(13, 175, 8), rgb(120, 243, 82));
+    border-image-slice: 1;
+    padding: 1% 3%;
+} 

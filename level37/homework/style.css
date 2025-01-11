@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background: rgb(44,136,123);
+    background: linear-gradient(90deg, rgba(44,136,123,1) 30%, rgba(209,117,217,1) 40%, rgba(195,14,167,1) 52%, rgba(209,117,217,1) 66%, rgba(255,46,0,1) 80%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-size: 20px;
+}
+.card {
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    border: 10px solid;
+    border-image-source: linear-gradient(90deg, rgb(185, 64, 36) 29%, rgba(209,117,217,1) 40%, rgba(195,14,167,1) 52%, rgba(209,117,217,1) 66%, rgb(94, 168, 158) 84%);
+    border-image-slice: 1;
+    max-width: 80%;
+}
+.main-card {
+    margin: auto;
+    padding: 2% 3%;
+}

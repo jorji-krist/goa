@@ -1,0 +1,20 @@
+body {
+    background: 
+    linear-gradient(45deg, rgba(255, 0, 0, 1), rgba(255, 255, 0, 1)),
+    linear-gradient(135deg, rgba(0, 0, 255, 1), rgba(0, 255, 255, 1));
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.card {
+    width: 50%;
+    margin: auto;
+    margin-top: 20%;
+    font-family: "Playwrite PT Guides", serif;
+    border: 10px solid;
+    background:     
+    linear-gradient(135deg, rgba(255, 255, 0, 1), rgba(255, 0, 0, 1)), 
+    linear-gradient(45deg, rgba(0, 255, 255, 1), rgba(0, 0, 255, 1)); 
+    border-image-slice: 1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
