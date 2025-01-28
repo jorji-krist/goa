@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: grey;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.card-1-table {
+    margin: auto;
+    margin-top: 10%;
+    border-collapse: collapse;
+}
+td, th{
+    padding: 5px 10px;
+}
+tr:nth-child(2n) {
+    background-color: rgb(211, 211, 211);
+}
+tr:first-child{
+    background-color: rgb(139, 0, 139);
+}
+td:first-child{
+    background-color: rgb(255, 248, 220);
+}
+tr {
+    background-color: aliceblue;
+}

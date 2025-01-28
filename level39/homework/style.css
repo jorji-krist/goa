@@ -1,0 +1,147 @@
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald&family=Playwrite+PT+Guides&family=Poetsen+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to left, rgb(92, 36, 3), rgb(255, 94, 0));
+    border-image-slice: 1;
+    font-size: 25px;
+    font-family: "rubik", serif;
+}
+h1 {
+    margin-top: 30px;
+    text-align: center;
+}
+a {
+    text-align: left;
+}
+a{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.card-1 {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+} */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Oswald&family=Playwrite+PT+Guides&family=Poetsen+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(./photos/image.png);
+    background-repeat: no-repeat;
+    background-size: 200vh;
+    text-align: center;
+    font-family: "Roboto Condensed", serif;
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+nav {
+    text-align: left;
+    margin: 40px 70px;
+    border: 0px solid;
+    max-width: 10%;
+    text-align: center;
+    padding: 10px 0px;
+    background: rgba(206, 209, 209, 0.605);
+    backdrop-filter: blur(1px);
+    border-radius: 20px;
+    transition: backdrop-filter 1s ease;
+}
+a {
+    text-decoration: none;
+    transition: color 1s ease;
+    color: grey;
+
+}
+.card-1 {
+    width: 60%;
+    margin: auto;
+    border: 0px solid;
+    padding: 30px;
+    margin-top: -70px;
+    background: rgba(206, 209, 209, 0.605);
+    backdrop-filter: blur(1px);
+    border-radius: 30px;
+    color: grey;
+    transition: backdrop-filter 1s ease, color 1s ease;
+}
+.snap {
+    list-style-image: url('./icons/snapchat.png');
+}
+
+ul {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+.snap {
+    display: inline-block;
+    background-image: url(./icons/snapchat.png);
+    background-repeat: no-repeat;
+    background-size: 16px 16px; 
+    background-position: left center;
+    padding-left: 20px; 
+    text-decoration: none; 
+}
+.you {
+    display: inline-block;
+    background-image: url(./icons/youtube.png);
+    background-repeat: no-repeat;
+    background-size: 16px 16px; 
+    background-position: left center;
+    padding-left: 20px; 
+    text-decoration: none; 
+}
+.inst {
+    display: inline-block;
+    background-image: url(./icons/instagram.png);
+    background-repeat: no-repeat;
+    background-size: 16px 16px; 
+    background-position: left center;
+    padding-left: 20px; 
+    text-decoration: none; 
+}
+
+.fb {
+    display: inline-block;
+    background-image: url(./icons/facebook.png) ;
+    background-repeat: no-repeat;
+    background-size: 16px 16px; 
+    background-position: left center;
+    padding-left: 20px; 
+    text-decoration: none; 
+}
+a:active {
+    color: purple;
+}
+.card-1:hover {
+    border: 0px solid white;
+    color: rgb(37, 37, 37);
+    padding: 30px;
+    background: rgba(206, 209, 209, 0.605);
+    backdrop-filter: blur(20px);
+}
+nav:hover {
+    backdrop-filter: blur(10px);
+}
+a:hover {
+    color: black;
+}
+h1 {
+    margin-top: 20px;
+    color: grey;
+    transition: color 1s ease;
+}
+h1:hover {
+    color: black;
+}

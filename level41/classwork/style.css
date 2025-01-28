@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-size: 25px;
+    background-image: url(./pics/image.png);
+    background-repeat: no-repeat;
+    background-size: 200vh;
+}
+#card-1 {
+    color: rgb(109, 108, 108);
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    border: 0px solid;
+    padding: 2%;
+    border-radius: 40px;
+    background: rgba(206, 209, 209, 0.605);
+    backdrop-filter: blur(1px);
+    transition: backdrop-filter 1s ease, color 1s ease;
+
+}
+h1 {
+    margin-top: 2%;
+}
+
+#card-1:hover {
+    color: black;
+    backdrop-filter: blur(40px);
+}
+#card-1nav {
+    margin: auto;
+    border: 0px solid;
+    margin-top: 3%;
+    width: 10%;
+    background: rgba(206, 209, 209, 0.605);
+    padding: 1%;
+    border-radius: 25px;
+}
+a {
+    text-decoration: none;
+    padding: 2%;
+    color: black;
+    transition: backdrop-filter 1s ease, color 1s ease;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: grey;
+}
+a:active {
+    color: rgb(255, 81, 0);
+}
+a:hover {
+    color: black;
+}
