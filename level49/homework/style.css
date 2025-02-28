@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@font-face {
+    font-family: "Inconsolata-Bold";
+    src: url("../assets/fonts/static/Inconsolata-Bold.ttf");
+}
+@font-face {
+    font-family: "Inconsolata-Regular";
+    src: url("../assets/fonts/static/Inconsolata-Regular.ttf");
+}
+body {
+    background-image: url(/level49/conference-ticket-generator-main/assets/images/pattern-circle.svg), url(/level49/conference-ticket-generator-main/assets/images/logo-full.svg), url(/level49/conference-ticket-generator-main/assets/images/pattern-circle.svg), url(/level49/conference-ticket-generator-main/assets/images/pattern-lines.svg), url(/level49/conference-ticket-generator-main/assets/images/pattern-squiggly-line-bottom-desktop.svg), url(/level49/conference-ticket-generator-main/assets/images/pattern-squiggly-line-top.svg), url(/level49/conference-ticket-generator-main/assets/images/background-desktop.png)
+    ;
+    background-repeat: no-repeat;
+    background-position: 1200px 460px, 850px 80px , 200px -70px, center, bottom left, top right, center;    
+    background-size: auto, auto, 300px 200px, auto, 45%, 45%, 100%;
+    font-family: "Inconsolata", monospace;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logo-container img {
+    width: 120px;
+    height: auto;
+}
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 60px;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+input {
+    background: rgba(255, 255, 255, 0.105);
+    border: 1px solid rgba(255, 255, 255, 0.298);
+    color: white;
+    border-radius: 10px;
+}
+button {
+    background: #ff5733;
+    color: rgb(0, 0, 0);
+    font-weight:700;
+    cursor: pointer;
+    font-family: "Inconsolata-Bold";
+    border-radius: 13px;
+}
+.upload-container {
+    font-size: 20px;
+    align-items: center;
+    border: 2px dashed rgba(255, 255, 255, 0.427);
+    padding: 20px;
+    border-radius: 20px;
+    width: 470px;
+    cursor: pointer;
+}
+.drag {
+    font-size: 25px;
+    text-align: center;
+}
+
+.upload-icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="file"] {
+    display: none;
+}
+label {
+    display: block;
+    text-align: left;
+    margin: 30px 0px;
+    margin-bottom: 5px;
+}
+input, label {
+    display: block;
+    width: 100%;
+}
+input {
+    padding: 15px 0px;
+    font-size: 16px; 
+    width: 500px;
+}
+button {
+    padding: 15px; 
+    font-size: 16px;
+    width: 500px;
+}
+
+form {
+    max-width: 460px;
+    margin-left: 200px;
+}
+.container2 {
+    font-size: 20px;
+    border: 1px solid gray;
+}
