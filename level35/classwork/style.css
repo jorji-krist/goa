@@ -1,0 +1,20 @@
+body {
+    width: 60%;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 30px;
+    height: 100vh;
+    background-image: url(./pics/image.png);
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-align: center;
+
+}
+main {
+    border: 2px solid;
+    border-radius: 20px;
+    max-width: fit-content;
+    padding: 20px;
+}
