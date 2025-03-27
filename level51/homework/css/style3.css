@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #191919;
+    font-family: "Inconsolata", monospace;
+}
+
+.card {
+    background-image: url(/level51/homework/interactive-rating-component-main/interactive-rating-component-main/images/illustration-thank-you.svg), linear-gradient(167deg, hsl(213, 20%, 18%), hsl(216, 12%, 11%));
+    background-repeat: no-repeat;
+    background-size: 170px, 100%;
+    background-position: 100px 40px, 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: #1E1E1E;
+    color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    width: 360px;
+    height: 380px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.rating-text {
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.437);
+    max-width: 60%;
+    color: #FF9100;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-top: 170px;
+}
+
+.thank-you {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.message {
+    color: #ccc;
+    margin-bottom: 45px;
+    margin-top: -20px;
+    font-size: 17px;
+    height: 45px;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}

@@ -8,8 +8,7 @@
     src: url("../assets/fonts/static/Inconsolata-Regular.ttf");
 }
 body {
-    background-image: url(/level49/conference-ticket-generator-main/assets/images/pattern-circle.svg), url(/level49/conference-ticket-generator-main/assets/images/logo-full.svg), url(/level49/conference-ticket-generator-main/assets/images/pattern-circle.svg), url(/level49/conference-ticket-generator-main/assets/images/pattern-lines.svg), url(/level49/conference-ticket-generator-main/assets/images/pattern-squiggly-line-bottom-desktop.svg), url(/level49/conference-ticket-generator-main/assets/images/pattern-squiggly-line-top.svg), url(/level49/conference-ticket-generator-main/assets/images/background-desktop.png)
-    ;
+    background-image: url(/level49/conference-ticket-generator-main/assets/images/pattern-circle.svg), url(/level49/conference-ticket-generator-main/assets/images/logo-full.svg), url(/level49/conference-ticket-generator-main/assets/images/pattern-circle.svg), url(/level49/conference-ticket-generator-main/assets/images/pattern-lines.svg), url(/level49/conference-ticket-generator-main/assets/images/pattern-squiggly-line-bottom-desktop.svg), url(/level49/conference-ticket-generator-main/assets/images/pattern-squiggly-line-top.svg), url(/level49/conference-ticket-generator-main/assets/images/background-desktop.png);
     background-repeat: no-repeat;
     background-position: 1200px 460px, 850px 80px , 200px -70px, center, bottom left, top right, center;    
     background-size: auto, auto, 300px 200px, auto, 45%, 45%, 100%;
@@ -39,7 +38,6 @@ body {
 .container {
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-top: 60px;
 }
 input, button {
@@ -114,5 +112,5 @@ form {
 }
 .container2 {
     font-size: 20px;
-    border: 1px solid gray;
+    border: 0px solid gray;
 }

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background: hsl(210, 46%, 95%);
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    height: 100vh;
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    background-image: url(/level53/homework/design/article-preview-component-master/article-preview-component-master/images/drawers.jpg);
+    background-repeat: no-repeat;
+    background-size: 280px 300px;
+    background-position: auto;
+    border-radius: 15px;
+    max-width: 39%;
+    height: 32vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-mini {
+    max-width: 47%;
+    margin-left: 28vh;
+    height: 35vh;
+    padding: 20px 0px;
+}
+.card-exp {
+    color: hsl(214, 17%, 51%);
+}
+.card-profile {
+    display: flex;
+    align-items: center;
+    width: 40vh;
+    margin-top: 30px;
+    border: 0.1px solid rgba(128, 128, 128, 0);
+}
+
+.card-profile img {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.card-profile-text {
+    padding-left: 10px;
+}
+
+.card-profile-first {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.card-profile-second {
+    margin-top: -8px;
+    color: hsl(214, 17%, 51%);
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4ede8;
+    font-family: Arial, sans-serif;
+}
+.card {
+    display: flex;
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 650px;
+    height: 470px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    align-items:center;
+    justify-content: end;
+    background-image: url(/level51/homework/product-preview-card-component-main/images/image-product-desktop.jpg);
+    background-size: 330px 500px;
+    background-repeat: no-repeat;
+}
+.card img {
+    object-fit: cover;
+}
+.card-content {
+    padding: 10px;
+    padding-right: 20px;
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+}
+.card-content p, .card-content h2 {
+    width: 100%;
+}
+.card-content p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+.card-content h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.price-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a7f37;
+}
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 16px;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1a7f37;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s;
+}
+.first-font {
+    font-family: "Inconsolata", monospace;
+}
+.second-font {
+    font-family: "Fraunces", serif;
+}
+.bg {
+    background-image: url(/level52/homework/product-preview-card-component-main/images/icon-cart.svg);
+    background-repeat: no-repeat;
+    background-size: 20 px;
+    background-position: 60px 12px;
+    font-size: 18   px;
+}

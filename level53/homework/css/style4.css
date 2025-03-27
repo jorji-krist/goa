@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(25, 161, 173);
+    background-image: url(/level53/homework/design/profile-card-component-main/profile-card-component-main/images/bg-pattern-top.svg), url(/level53/homework/design/profile-card-component-main/profile-card-component-main/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-position: -24vh -40vh, 110vh 40vh;
+    height: 100vh;
+}
+.card {
+    margin: auto;
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    max-width: 25%;
+    height: 44vh;
+}

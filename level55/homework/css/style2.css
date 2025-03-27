@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(221, 100%, 96%);
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 18px;
+}
+.card {
+    display: flex;
+    align-items: center;
+    width: 550px;
+    height: 410px;
+    justify-content: center;
+    margin: auto;
+    border-radius: 17px;
+    margin-top: 160px;
+    background-color: rgb(255, 255, 255);
+}
+.card1 {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    max-width: 55%;
+    margin-left: -123px;
+    border-radius: 30px;
+    color: white;
+}
+
+.result {
+    margin-top: 23px;
+    color: rgba(255, 255, 255, 0.508);
+    font-size: 20px;
+}
+.score {
+    margin-top: 25px;
+    padding: 40px;
+    width: 170px;
+    border-radius: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.463);
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+.p-for76 {
+    font-size: 45px;
+    color: white;
+    font-weight: 700;
+}
+.card1-great {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 25px;
+    max-width: 74%;
+}
+.card1-great-h2 {
+    margin-bottom: 10px;
+    font-size: 27px;
+}
+.card1-great-p {
+    color: rgba(255, 255, 255, 0.519);
+}
+.card2 {
+    font-weight: 600;
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+    margin-left: 0px;
+    background-image: url(/level55/homework/results-summary-component-main/results-summary-component-main/assets/images/icon-reaction.svg), url(/level55/homework/results-summary-component-main/results-summary-component-main/assets/images/icon-memory.svg), url(/level55/homework/results-summary-component-main/results-summary-component-main/assets/images/icon-verbal.svg), url(/level55/homework/results-summary-component-main/results-summary-component-main/assets/images/icon-visual.svg);
+    background-repeat: no-repeat;
+    background-position: 57px 75px, 57px 140px, 57px 207px, 57px 274px;
+    background-size: 23px;
+}
+
+.card2-summary {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    margin-left: 24px;
+}
+
+.card2 p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+    margin-left: 30px  ;
+    border-radius: 10px;
+    padding: 14px 29px;
+    width: 100%;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.card2 button {
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-left: 30px;
+}
