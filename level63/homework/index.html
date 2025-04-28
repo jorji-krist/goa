@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title><html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    
+  </body>
+  </html></title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+    }
+    .card1 {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border-top: 35px solid rgb(50, 245, 15);
+      animation: spin 2.3s linear infinite;
+      margin-right: -300px;
+    }
+    .card2 {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border-bottom: 35px solid rgb(255, 0, 0);
+      animation: spin 2.3s linear infinite;
+      margin-right: -300px;
+    }
+    .card3 {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border-left: 30px solid rgb(0, 38, 255);
+      animation: spin 2.3s linear infinite;
+        margin-right: -300px;
+    }
+    .card4 {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border-right: 30px solid rgb(255, 0, 242);
+      animation: spin 2.3s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card card1"></div>
+  <div class="card card2"></div>
+  <div class="card card3"></div>
+  <div class="card card4"></div>
+</body>
+</html>

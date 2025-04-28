@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animated Card</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+    }
+
+    .card {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border: 15px solid transparent;
+      background-image: 
+        linear-gradient(white, white), 
+        linear-gradient(45deg, red, violet);
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+      animation: spin 5s linear infinite, scaleEffect 3s ease infinite alternate, colorShift 10s linear infinite
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes scaleEffect {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(1.2);
+      }
+    }
+
+    @keyframes colorShift {
+      0% {
+        background-image: 
+          linear-gradient(white, white),
+          linear-gradient(45deg, red, violet);
+      }
+      50% {
+        background-image: 
+          linear-gradient(white, white),
+          linear-gradient(45deg, violet, red);
+      }
+      100% {
+        background-image: 
+          linear-gradient(white, white),
+          linear-gradient(45deg, red, violet);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card"></div>
+</body>
+</html>
