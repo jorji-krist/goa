@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .fancy-button {
+        position: relative;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #43434371;
+        color: rgb(0, 0, 0);
+        border: none;
+        cursor: pointer;
+        }
+
+        .fancy-button::before {
+        content: 'lorem ipsum';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 18px;
+        background: rgba(0, 0, 0, 0.2);
+        }
+
+        .fancy-button::after {
+        content: 'NOW';
+        color: wheat;
+        margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button class="fancy-button">Click Me</button>
+</body>
+</html>
