@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    :root {
+        --primary-10: #f0f0f0;
+        --primary-20: #f0f0f0;
+        --primary-90: #000000;
+
+        --bg-color: var(--primary-10);
+        --text-color: var(--primary-90);
+    }
+
+    body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        text-align: center;
+        padding: 40px;
+    }
+
+    button {
+        padding: 10px 20px;
+        border-radius: 8px;
+        border: 0px;
+        cursor: pointer;
+        background-color: var(--primary-90);
+        color: var(--primary-10);
+    }
+    button:hover {
+        opacity: 0.8;
+    }
+    .dark {
+        --bg-color: var(--primary-90);
+        --text-color: var(--primary-10);
+    }
+    .color {
+        background-color: var(--primary-20)
+    }
+    .btn {
+        padding: 30px;
+        margin-left: 20px;
+    }
+    </style>
+</head>
+<body>
+    <button id="dark-mode" class="btn"></button>
+    <button class="color btn" id="dark-mode1"></button>
+
+
+    <script>
+    const button = document.getElementById('dark-mode');
+    let darkMode = true;
+    const button2 = document.getElementById('dark-mode1');
+    let darkMode2 = false;
+
+    button.addEventListener('click', function () {
+        if (darkMode) {
+        document.body.classList.add('dark');
+        } else {
+        document.body.classList.remove('white');
+        }
+    });
+    button2.addEventListener('click', function () {
+        if (darkMode2) {
+        document.body.classList.add('white');
+        } else {
+        document.body.classList.remove('dark');
+        }
+    });
+    </script>
+
+</body>
+</html>

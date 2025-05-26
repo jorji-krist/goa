@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background-color: gray;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+  <div class="box"></div>
+
+  <button onclick="changeColor()">change color</button>
+
+
+  <script>
+    const boxes = document.querySelectorAll('.box');
+
+    function changeColor() {
+      for (let i = 0; i < boxes.length; i++) {
+        boxes[i].style.backgroundColor = 'blue';
+      }
+    }
+  </script>
+
+</body>
+</html>
