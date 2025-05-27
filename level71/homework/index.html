@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .h1::before {
+            content: "";
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 20px;
+            background-color: #00f218;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        .end-icon::after {
+            content: "✅";
+            color: rgb(26, 254, 26);
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="h1">lorem</h1>
+    <p class="end-icon">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+</body>
+</html>

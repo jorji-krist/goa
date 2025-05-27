@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: salmon;
+            animation: pulse 3s infinite;
+            margin: auto;
+            margin-top: 20%;
+        }
+
+        .box:hover {
+            animation-duration: 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
